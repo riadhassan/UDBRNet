@@ -1,4 +1,4 @@
-<span style="color:red"> *Currently the paper is under review. After publication, the source code and pre-training model will be released.* </span>
+<span style="color:red"> *Currently the paper is under review. After publication, the source code and pre-trained model will be released.* </span>
 
 # UDBRNet: A Novel Uncertainty Driven Boundary Refined Network for Organ at Risk Segmentation
 
@@ -23,8 +23,5 @@ pandas~=2.1.4
 
 ### Run the code (*Sourcecode will be available after publication of the paper*)
 ```
-python main.py \
-        --dataset='dataset_name'
-        --data_path='Dataset_directory'\
-        --architecture='UDBRNet'
+python main.py --dataset 'dataset_name' --data_path 'Dataset_directory' --arch 'UDBRNet'
 ```
