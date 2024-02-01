@@ -25,3 +25,16 @@ pandas~=2.1.4
 ```
 python main.py --dataset 'dataset_name' --data_path 'Dataset_directory' --arch 'UDBRNet'
 ```
+
+### Output
+#### 3D view of output from SegThor dataset
+![3D output from SegThor dataset](/Output/3D%20output%20SegThor.png "3D output from SegThor dataset")
+
+#### 3D view of output from LCTSC dataset
+![3D output from LCTSC dataset](/Output/3D%20output%20LCTSC.png "3D output from SegThor dataset")
+
+#### Contoured output from SegThor dataset
+![3D output from SegThor dataset](/Output/2D_Sample_Output_SegThor.PNG "3D output from SegThor dataset")
+
+#### Contoured output from LCTSC dataset
+![3D output from SegThor dataset](/Output/2D_Sample_Output_LCTSC.PNG "3D output from SegThor dataset")
