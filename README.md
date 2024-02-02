@@ -1,9 +1,9 @@
-<span style="color:red"> *Currently the paper is under review. After publication, the source code and pre-trained model will be released.* </span>
+<span style="color:red"> ***Currently the paper is submitted for publication. After publication, the source code and pre-trained model will be released.*** </span>
 
 # UDBRNet: A Novel Uncertainty Driven Boundary Refined Network for Organ at Risk Segmentation
 
 
-This repository will contain the source code related to the research paper titled "UDBRNet: A Novel Uncertainty Driven Boundary Refined Network for Organ at Risk Segmentation". 
+This repository will contain the source code related to the research paper titled "UDBRNet: A Novel Uncertainty Driven Boundary Refined Network for Organ at Risk Segmentation". After publication, the source code and pre-trained model will be released. 
 
 ### Necessary Packages and Versions
 ```
@@ -21,20 +21,20 @@ tqdm~=4.66.1
 pandas~=2.1.4
 ```
 
-### Run the code (*Sourcecode will be available after publication of the paper*)
+### Run the code (*Source code will be available after publication of the paper*)
 ```
 python main.py --dataset 'dataset_name' --data_path 'Dataset_directory' --arch 'UDBRNet'
 ```
 
 ### Output
-#### 3D view of output from SegThor dataset
+#### 3D view of segmented organs from SegThor dataset
 ![3D output from SegThor dataset](/Output/3D%20output%20SegThor.png "3D output from SegThor dataset")
 
-#### 3D view of output from LCTSC dataset
+#### 3D view of segmented organs from LCTSC dataset
 ![3D output from LCTSC dataset](/Output/3D%20output%20LCTSC.png "3D output from SegThor dataset")
 
-#### Contoured output from SegThor dataset
+#### Predected (Green) and ground truth (Red) contoured output for SegThor dataset
 ![3D output from SegThor dataset](/Output/2D_Sample_Output_SegThor.PNG "3D output from SegThor dataset")
 
-#### Contoured output from LCTSC dataset
+#### Predected (Green) and ground truth (Red) contoured output for LCTSC dataset
 ![3D output from SegThor dataset](/Output/2D_Sample_Output_LCTSC.PNG "3D output from SegThor dataset")
