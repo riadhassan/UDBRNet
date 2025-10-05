@@ -7,7 +7,7 @@ This repository will contain the source code related to the research paper title
 Paper: [Link](https://doi.org/10.1371/journal.pone.0304771)
 
 ### Contact
-For any kind of help or collaboration, Email [Riad Hassan](https://riadhassan.github.io/academic/).
+For any kind of help or collaboration, Email [Riad Hassan](https://riadhassan.github.io/).
 
 ### Necessary Packages and Versions
 ```
